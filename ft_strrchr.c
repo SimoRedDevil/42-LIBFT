@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mel-yous <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 21:09:34 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/16 12:35:07 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/11/02 18:34:40 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ char	*ft_strrchr(const char *s, int c)
 			return ((char *)s + len);
 		len--;
 	}
-	return (0);
+	return (NULL);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mel-yous <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 21:29:27 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/16 12:28:39 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/10/29 11:43:14 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	unsigned char	*us1;
 	unsigned char	*us2;
-	unsigned int	i;
+	size_t			i;
 
 	us1 = (unsigned char *)s1;
 	us2 = (unsigned char *)s2;

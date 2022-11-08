@@ -6,7 +6,7 @@
 /*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 19:25:39 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/24 15:02:46 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/11/02 13:29:28 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ char	*ft_strdup(const char *s1)
 	size_t	i;
 
 	slen = ft_strlen(s1);
-	ptr = (char *)malloc(slen + 1);
 	i = 0;
+	ptr = (char *)malloc(slen + 1);
 	if (ptr == NULL)
 		return (NULL);
 	while (i < slen)

@@ -6,7 +6,7 @@
 /*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:21:52 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/24 09:31:27 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/11/01 18:36:14 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	size_t	i;
 	size_t	j;
 
+	if (haystack == NULL && len == 0)
+		return (NULL);
 	if (len > ft_strlen(haystack))
 		len = ft_strlen(haystack);
 	if (*needle == 0)
@@ -32,5 +34,5 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		j = 0;
 		i++;
 	}
-	return (0);
+	return (NULL);
 }

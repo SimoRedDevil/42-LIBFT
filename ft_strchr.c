@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mel-yous <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 19:09:53 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/06 21:08:49 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/11/02 18:29:24 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	unsigned int	len;
-	unsigned int	i;
+	size_t	len;
+	size_t	i;
 
 	len = ft_strlen(s);
 	i = 0;

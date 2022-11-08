@@ -6,16 +6,18 @@
 /*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 21:16:40 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/24 18:16:57 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/11/02 13:30:01 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
 
 	i = 0;
-	if (s != 0 && f != 0)
+	if (s != NULL && f != NULL)
 	{
 		while (s[i] != '\0')
 		{

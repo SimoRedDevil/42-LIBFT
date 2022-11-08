@@ -6,7 +6,7 @@
 /*   By: mel-yous <mel-yous@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 10:20:29 by mel-yous          #+#    #+#             */
-/*   Updated: 2022/10/24 09:32:45 by mel-yous         ###   ########.fr       */
+/*   Updated: 2022/10/31 15:23:24 by mel-yous         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	if (s != 0)
+	if (s != NULL)
 		write(fd, s, ft_strlen(s));
 }
